@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ws2812b"
+version = "0.1.0"
+description = ""
+authors = ["Kosuke Yamashima <Renet.pc@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+rpi-ws281x = "^4.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
